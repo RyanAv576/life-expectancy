@@ -1,0 +1,24 @@
+{
+  "_captured_at": "2026-07-16T06:58:17+00:00",
+  "_captured_run_id": "r_8ab6d28549fc45cd936c713b988cc551",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote le_data (45 rows, 8 columns).",
+    "NOTE: PROC REG data=le_data",
+    "NOTE: PROC REG ODS Graphics generated."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "output_contains": [
+    "The REG Procedure",
+    "Dependent Variable: le",
+    "year"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

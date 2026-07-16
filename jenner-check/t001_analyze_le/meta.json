@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_analyze_le",
+  "source_file": "code/01_Analyze-life-expectancy.sas",
+  "source_blob_sha": "84ae0d599f93544d408eb62e5d9aa9add9247077",
+  "source_commit": "1e1f28f18804a4c63d95f0a7a65b46ad63393eec",
+  "notes": "Regression of life expectancy (LE) on year for California/black/Female, exactly as authored (proc reg, same WHERE filter and MODEL statement). PROC IMPORT of the hardcoded YourFilePathHere CSV path is replaced with an inline DATALINES sample (45 rows) drawn directly from the repo own data/Life-expectancy-by-state-long.csv, restricted to the same California/black/Female subset the script filters to. Recovered estimates (intercept -232.496, slope 0.15445) match the values hardcoded into the repo companion R script (code/01_Analyze-life-expectancy.R geom_abline call) almost exactly, confirming the substitution preserves the original analysis."
+}
